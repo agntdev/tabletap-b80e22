@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Admin: Today's dashboard",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Owner/admin opens compact dashboard of today's bookings and remaining capacity (owner only)"
+            }
+          }
+        ],
+        "send": {
+          "callback": "admin:dashboard"
+        }
+      }
+    ]
+  }
+]
