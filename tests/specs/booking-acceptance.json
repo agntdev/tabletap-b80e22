@@ -1,0 +1,13 @@
+[
+  {
+    "name": "guest books and skips optional contact details",
+    "steps": [
+      { "send": { "callback": "booking:start" }, "expect": [{ "method": "sendMessage", "payload": { "text": "How many people are you booking for?" } }] },
+      { "send": { "callback": "booking:party:2" }, "expect": [{ "method": "sendMessage" }] },
+      { "send": { "callback": "booking:date:2026-09-24" }, "expect": [{ "method": "sendMessage" }] },
+      { "send": { "callback": "booking:time:11:00" }, "expect": [{ "method": "sendMessage", "payload": { "text": "What name should I put on the booking? You can skip this." } }] },
+      { "send": { "text": "skip" }, "expect": [{ "method": "sendMessage", "payload": { "text": "What phone number should we use? You can skip this." } }] },
+      { "send": { "text": "skip" }, "expect": [{ "method": "sendMessage" }] }
+    ]
+  }
+]

@@ -7,7 +7,7 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "Begin a new booking flow (party size → date → time → optional contact → confirm)"
+              "text": "How many people are you booking for?"
             }
           }
         ],
