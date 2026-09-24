@@ -7,7 +7,7 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "Lookup, view, cancel or reschedule an existing booking by entering reference code"
+              "text": "Send your 6-character booking reference."
             }
           }
         ],

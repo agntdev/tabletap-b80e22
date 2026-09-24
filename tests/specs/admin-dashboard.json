@@ -7,7 +7,7 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "Owner/admin opens compact dashboard of today's bookings and remaining capacity (owner only)"
+              "text": "Owner access isn't set up yet."
             }
           }
         ],
